@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
-  database: hamidin
-  username: hamidin
-  password: <%= ENV['RECETA_DATABASE_PASSWORD'] %>
+  host: "ec2-23-21-183-70.compute-1.amazonaws.com"
+  database: "d13b7a4fmjun2n"
+  username: "skkggbgjziekhi"
+  password: "fRZnFioESp9Rv65-a-x36Inr3O"
